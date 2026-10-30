@@ -1,0 +1,12 @@
+services:
+  app:
+      build: 
+        context: .
+        dockerfile: DockerFile
+      ports:
+      - "8000:8000"
+      image: myfastapiapp:latest
+
+
+
+# docker compose up
